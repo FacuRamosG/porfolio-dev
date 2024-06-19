@@ -14,7 +14,7 @@ const TAGS = {
     icon: NextJS,
   },
   TAILWIND: {
-    name: "Tailwind CSS",
+    name: "Tailwind",
     class: "bg-[#003159] text-white",
     icon: Tailwind,
   },
@@ -71,7 +71,7 @@ const PROJECTS = [
             {title}
           </h3>
           <div class="flex flex-wrap mt-2">
-            <ul class="flex flex-row mb-2 gap-x-2">
+            <ul class="grid grid-flow-col auto-cols-[minmax(0,_2fr)] sm:flex sm:flex-row mb-2 gap-x-2">
               {tags.map((tag) => (
                 <li>
                   <span
